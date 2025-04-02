@@ -6,8 +6,6 @@ description: "Mülksüzleştirme Ağları - Sermaye-iktidar ilişkileri üzerine
 baseurl: "" # jekyll serve --baseurl "/mulksuzlestirme"
 url: "https://mulksuzlestirme.org"
 twitter_username: mulksuzlestirme
-github_username:  graphcommons
-facebook_username:  graphcommons
 
 # Build settings
 markdown: kramdown

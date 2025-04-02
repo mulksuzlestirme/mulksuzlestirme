@@ -8,9 +8,7 @@ header-img: "img/contact-bg.jpg"
 ---
 
 
-Networks of Dispossession is being developed in phases and open to contributions. If you'd like to work or contribute data please email us at:
-
-<a href="mailto:mulksuzlestirme@gmail.com">mulksuzlestirme@gmail.com</a>
+Networks of Dispossession is being developed in phases and open to contributions. If you'd like to work or contribute data please contact us on Twitter.
 
 <hr>
 
