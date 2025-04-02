@@ -1,7 +1,6 @@
 # Site settings
 title: Mülksüzleştirme Ağları
 header-img: img/3.Kopru-KuzeyMarmaraOtoyolu.jpg
-email: mulksuzlestirme@gmail.com
 description: "Mülksüzleştirme Ağları - Sermaye-iktidar ilişkileri üzerine kolektif veri haritalama // Mapping the relations of capital and power in Turkey"
 baseurl: "" # jekyll serve --baseurl "/mulksuzlestirme"
 url: "https://mulksuzlestirme.org"
