@@ -1,0 +1,38 @@
+<!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="{{ site.baseurl }}/{{ site.t[page.lang]['site_title']['url'] }}">{{ site.t[page.lang]['site_title']['name'] }}</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                {% for menu in site.menu[page.lang] %}
+                <li>
+                   <a href="{{ site.baseurl }}/{{menu[1].url}}">{{menu[1].name}}</a>
+                </li>
+                {% endfor %}
+
+                <li>
+                    <a href="https://docs.google.com/forms/d/1iwyTBNJ_V5OY4muGbhdAfzt1PpFuG9Fuj2e7erdZLpE/viewform" target="_blank">{{ site.t[page.lang]['submit_project'] }}</a>
+                </li>
+
+                <li class="lang">
+                    <a href="/{{ site.menu['tr'][page.slug]['url'] }}" class="tr{%if page.lang == 'tr' %} current{% endif %}">TR</a>
+                    <a href="/{{ site.menu['en'][page.slug]['url'] }}" class="en{%if page.lang == 'en' %} current{% endif %}">EN</a>
+                </li>
+
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>

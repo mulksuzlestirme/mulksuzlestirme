@@ -1,0 +1,30 @@
+---
+layout: page
+lang: en
+title: "Networks of Dispossession"
+slug: "home"
+description: "Mapping the relations of capital and power in Turkey"
+action_link: "https://graphcommons.com/h/mulksuzlestirme"
+action_call: "Explore"
+---
+
+{% for post in site.posts %}
+    {% if page.lang == post.lang %}
+    <div class="post-preview">
+        <a href="{{ post.graph_url }}" class="{{ post.lang }}" target="_blank">
+            <img src="/{{ post.header-img }}" alt="" />
+            <h2 class="post-title">
+                {{ post.title }}
+            </h2>
+            {% if post.description %}
+            <h3 class="post-subtitle">
+                {{ post.description }}
+            </h3>
+            {% endif %}
+        </a>
+    </div>
+    <hr class="divider">
+    {% endif %}
+{% endfor %}
+
+{% include newsletter.html %}

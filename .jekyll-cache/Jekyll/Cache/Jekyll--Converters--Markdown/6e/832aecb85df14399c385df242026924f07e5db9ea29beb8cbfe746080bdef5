@@ -1,0 +1,38 @@
+I"�<p>Mülksüzleştirme Ağları katılıma açıktır. Çalışmalar aşama aşama devam etmektedir. Beraber çalışmak isterseniz ya da kaynak verebileceğiniz veriler varsa email ile iletişime geçebilirsiniz: <a href="mailto:mulksuzlestirme@gmail.com">mulksuzlestirme@gmail.com</a></p>
+
+<p><a href="https://docs.google.com/forms/d/1iwyTBNJ_V5OY4muGbhdAfzt1PpFuG9Fuj2e7erdZLpE/viewform">Mülksüzleştirme projesi bildirme formu</a></p>
+
+<p>Çalışma <a href="http://mutlukent.wordpress.com" target="_blank">Yaşar Adanalı</a>, Ayça Aldatmaz, <a href="http://burak-arikan.com" target="_blank">Burak Arıkan</a>, <a href="https://twitter.com/elifince" target="_blank">Elif İnce</a>, <a href="http://www.iq.harvard.edu/people/esra-gurakar" target="_blank">Esra Gürakar</a>, <a href="http://zeynoustun.com" target="_blank">Zeyno Üstün</a>, <a href="https://twitter.com/ozlemzingil" target="_blank">Özlem Zıngıl</a> ve anonim katılımcılar tarafından gerçekleştirilmektedir.</p>
+
+<p>Haritalarda iş cinayetleri verileri <a href="http://www.birumut.org/">1Umut Derneği</a> tarafından, azınlık mülklerine dair verilerin bir kısmı <a href="http://www.hrantdink.org/">Hrant Dink Vakfı</a> araştırmasından, termik santraller hakkında verilerin bir kısmı <a href="http://iklimadaleti.org">Ekoloji Kolektifi</a> tarafından sağlanmıştır.</p>
+
+<p>Ağ haritalama altyapısı <a href="http://graphcommons.com" target="_blank">Graph Commons</a> tarafından sağlamaktadır.</p>
+
+<hr />
+
+<div class="row control-group">
+    <div class="form-group col-xs-12 controls">
+        <div id="mc_embed_signup">
+            <label>Mülksüzleştirme Ağları Bülteni</label>
+            <div class="subtitle">
+                Aylık güncellemeler ve duyurular
+            </div>
+            <form action="https://mulksuzlestirme.us8.list-manage.com/subscribe/post?u=017e36516e5c97ca3e0881958&amp;id=a7d989056f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+              <div class="input-group mc-field-group text-center">
+                <!-- <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></span> -->
+                <input type="email" value="" name="EMAIL" id="mce-EMAIL" class="form-control" placeholder="Email adresiniz" lang="tr" />
+                <span class="input-group-btn">
+                  <input type="submit" value="Abone ol" name="subscribe" id="mc-embedded-subscribe" class="btn btn-default" lang="tr" />
+                </span>
+              </div>
+              <div id="mce-responses" class="clear">
+                <div class="response" id="mce-error-response" style="display:none"></div>
+                <div class="response" id="mce-success-response" style="display:none"></div>
+              </div>
+              <div style="position: absolute; left: -5000px;"><input type="text" name="b_017e36516e5c97ca3e0881958_a7d989056f" tabindex="-1" value="" /></div>
+            </form>
+        </div>
+    </div>
+</div>
+
+:ET

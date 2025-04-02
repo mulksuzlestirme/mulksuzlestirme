@@ -1,0 +1,30 @@
+---
+layout: page
+lang: tr
+title: "Mülksüzleştirme Ağları"
+slug: "home"
+description: "Sermaye-iktidar ilişkileri üzerine kolektif veri haritalama"
+action_link: "https://graphcommons.com/h/mulksuzlestirme"
+action_call: "Haritaları keşfet"
+---
+
+{% for post in site.posts %}
+    {% if page.lang == post.lang %}
+    <div class="post-preview">
+        <a href="{{ post.graph_url }}" class="{{ post.lang }}" target="_blank">
+            <img src="{{ post.header-img }}" alt="" />
+            <h2 class="post-title">
+                {{ post.title }}
+            </h2>
+            {% if post.description %}
+            <h3 class="post-subtitle">
+                {{ post.description }}
+            </h3>
+            {% endif %}
+        </a>
+    </div>
+    <hr class="divider">
+    {% endif %}
+{% endfor %}
+
+{% include newsletter.html %}

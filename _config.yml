@@ -1,0 +1,106 @@
+# Site settings
+title: Mülksüzleştirme Ağları
+header-img: img/3.Kopru-KuzeyMarmaraOtoyolu.jpg
+email: mulksuzlestirme@gmail.com
+description: "Mülksüzleştirme Ağları - Sermaye-iktidar ilişkileri üzerine kolektif veri haritalama // Mapping the relations of capital and power in Turkey"
+baseurl: "" # jekyll serve --baseurl "/mulksuzlestirme"
+url: "https://mulksuzlestirme.org"
+twitter_username: mulksuzlestirme
+github_username:  graphcommons
+facebook_username:  graphcommons
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+permalink: pretty
+# paginate: 20
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate]
+
+permalink: /:title/
+
+# Language
+defaults:
+  -
+    scope:
+      path: _posts/en
+    values:
+      lang: en
+  -
+    scope:
+      path: _posts/tr
+    values:
+      lang: tr
+
+# Translate
+t:
+    en:
+        site_title:
+            name: "Networks of Dispossession"
+            url: "index.en"
+        newsletter:
+            title: "Networks of Dispossession Newsletter"
+            subtitle: "Monthly updates and announcements"
+            email: "Email address"
+            subscribe: "Subscribe"
+        info: "Networks of Dispossession project is created by <a href='/kunye'>volunteers</a> and <a href='/kunye'>open to contributions</a>.
+            <br><br>
+            <a href='https://graphcommons.com/h/mulksuzlestirme' target='_blank'>The Networks of Dispossession database</a> is updated regularly and contains more than
+            700 companies, 50 government institutions, 40 media organizations, and 600 projects. For the most recent updates and maps please visit <a href='https://graphcommons.com/h/mulksuzlestirme' target='_blank'>Networks of Dispossession Hub on Graph Commons</a>.
+            <br><br>
+            The projects in the database are composed of
+            92 Complex Project, 83 Thermal power plant , 76 Housing porject, 60 Shoping Mall, 25 Hotel, 22 Harbor, 17 Electricity Grid, 14 Hydroelectric Power Plant (HES), 10 Hospital, 9 Dam, 9 Governement Building, 8 Airport, 7 Subway, 6 Highway, 6 Mine, 5 Railroad, 4 Office, 4 Businessmens Association , 3 Stadium, 3 Gas Grid, 3 Convention Center, 3 Oil Refinery, 3 Tube, 3 Religious Building, 3 Nuclear Power Plant, 2 Natural Gas Power Plant, 2 Factory, 2 Autopark, 2 Wind Power Plant, 2 Water Works, 2 Bridge, 2 Train Station, 1 School, 1 Park, 1 Museum, 1 Seaway, 1 Underwater Tube, 1 Pier, 1 Urban Square Arrangement.
+            <br><br>
+            This website presents selected maps from the database. You can <a href='https://graphcommons.com/h/mulksuzlestirme' target='_blank'>explore and build other maps yourself</a>."
+        license: "Data and graphs license"
+        submit_project: "SUBMIT A PROJECT"
+    tr:
+        site_title:
+            name: "Mülksüzleştirme Ağları"
+            url: "index.html"
+        newsletter:
+            title: "Mülksüzleştirme Ağları Bülteni"
+            subtitle: "Aylık güncellemeler ve duyurular"
+            email: "Email adresiniz"
+            subscribe: "Abone ol"
+        info: "Mülksüzleştirme Ağları çalışması <a href='/kunye'>gönüllüler</a> tarafından yürütülmektedir ve <a href='/kunye'>katılıma açıktır</a>.
+            <br><br>
+            Belirli aralıklarla güncellenen <a href='https://graphcommons.com/h/mulksuzlestirme' target='_blank'>Mülksüzleştirme Ağları veritabanı</a>
+            700 şirket, 50 kamu kurumu, 38 medya ve 600 kadar proje içermektedir.
+            <br><br>
+            Veri tabanı toplamda
+            92 Karma Proje, 83 Termik Santral, 76 Konut, 60 AVM, 25 Otel, 22 Liman, 17 Elektrik Dağıtım, 14 HES, 10 Hastane, 9 Baraj, 9 Kamu Binası, 8 Havalimanı, 7 Metro, 6 Karayolu, 6 Maden, 5 Demiryolu, 4 Ofis, 4 Birlik, 3 Stadyum, 3 Gaz Dağıtım, 3 Kongre Merkezi, 3 Rafineri, 3 Tünel, 3 Dini Tesis, 3 Nükleer Santral, 2 Doğalgaz Santrali, 2 Fabrika, 2 Otopark, 2 Rüzgar Santrali, 2 Su İşleri, 2 Köprü, 2 Tren Garı, 1 Okul, 1 Park, 1 Müze, 1 Denizyolu, 1 Tüpgeçit, 1 İskele, 1 Meydan Düzenleme
+            içermektedir.
+            <br><br>
+            Bu sitede veritabanından çıkartılmış harita seçkilerini görmektesiniz. Siz de veritabanı kullanarak <a href='https://graphcommons.com/h/mulksuzlestirme' target='_blank'>Graph Commons ile kendi haritalarınızı yapabilirsiniz.</a>"
+        license: "Verilerin ve haritaların lisansı"
+        submit_project: "Proje Bildir"
+
+menu:
+    en:
+        home:
+            name: "Home"
+            url: "index.en"
+        about:
+            name: "About"
+            url: "about"
+        contact:
+            name: "Contact"
+            url: "contact"
+        credits:
+            name: "CREDITS & PARTICIPATION"
+            url: "credits"
+    tr:
+        home:
+            name: "Anasayfa"
+            url: "index"
+        about:
+            name: "Hakkında"
+            url: "hakkinda"
+        contact:
+            name: "İletişim"
+            url: "iletisim"
+        credits:
+            name: "Künye & Katılım"
+            url: "kunye"

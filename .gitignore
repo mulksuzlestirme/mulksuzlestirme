@@ -1,0 +1,6 @@
+_site
+node_modules
+/.DS_Store
+
+/img/.DS_Store
+/projeler/.DS_Store
