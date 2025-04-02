@@ -82,9 +82,6 @@ menu:
         contact:
             name: "Contact"
             url: "contact"
-        credits:
-            name: "CREDITS & PARTICIPATION"
-            url: "credits"
     tr:
         home:
             name: "Anasayfa"
@@ -95,6 +92,3 @@ menu:
         contact:
             name: "İletişim"
             url: "iletisim"
-        credits:
-            name: "Künye & Katılım"
-            url: "kunye"
